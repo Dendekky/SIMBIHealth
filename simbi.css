@@ -1,3 +1,8 @@
+body{
+  background: #000051;
+  color: white;
+}
+
 .container {
    min-height:100%;
    position:relative;
@@ -33,7 +38,7 @@ h1 {
   bottom:0;
   text-align: center;
   width:100%;
-  height:60px;   /* Height of the footer */
+  height:25px;   /* Height of the footer */
 }
 
 .footerContainer {
@@ -41,3 +46,24 @@ h1 {
   display: inline-block;
 }
 
+.signupSection{
+  width: 25%;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.signupContainer{
+  background: #000a12;
+  overflow: auto;
+}
+
+.signupContainerh1{
+text-align: center;
+font-size: 32px;
+}
+
+.inputText{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
