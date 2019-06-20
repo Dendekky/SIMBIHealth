@@ -1,39 +1,43 @@
 body{
-  background: #000051;
+  background: url("61.jpg");
   color: white;
+  margin: 0;
 }
 
 .container {
-   min-height:100%;
-   position:relative;
+  padding: 10px 10px;
 }
 
-h1 {
+.container h1 {
   margin: 0;
   display: inline-block;
   }
 
-.btn-group {
-  border: none;
-  color: white;
-  padding: 0px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
+.nav-group {
   float: right;
+}
+
+a{
+  padding: 0px 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+a:hover{
+  color: black;
+  font-weight: bold;
 }
 
 .sectionTwo{
   padding: 96px 64px;
 }
 
-.text {
+.sectionTwo h1 {
   font-size: 32px;
 }
 
-.footer {
+footer {
   position:absolute;
   bottom:0;
   text-align: center;
@@ -41,7 +45,7 @@ h1 {
   height:25px;   /* Height of the footer */
 }
 
-.footerContainer {
+footer div {
   margin: 0;
   display: inline-block;
 }
@@ -52,12 +56,12 @@ h1 {
   padding: 25px;
 }
 
-.signupContainer{
+.signupSection div{
   background: #000a12;
   overflow: auto;
 }
 
-.signupContainerh1{
+.signupSection h1{
 text-align: center;
 font-size: 32px;
 }
@@ -66,4 +70,28 @@ font-size: 32px;
     background: transparent;
     border: none;
     border-bottom: 1px solid #000000;
+}
+
+.input-submit{
+  border-radius: 8px;
+}
+
+.input-submit:active{
+  border: none;
+}
+
+.alert-header {
+  margin: 20px;
+}
+
+.alert-section-2{
+  width: 25%;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.profile-section-2{
+  width: 25%;
+  margin: 20px auto;
+  padding: 25px;
 }
