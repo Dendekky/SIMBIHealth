@@ -1,0 +1,28 @@
+body {
+  background: url("welcome pg.png");
+  background-size: 100%;
+}
+
+.container {
+  padding: 10px 10px;
+}
+
+.container img,
+.container h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav-group {
+  float: right;
+}
+
+.sectionTwo{
+  padding: 96px 0px;
+  margin-left: 15%;
+}
+
+.sectionTwo h1 {
+  font-size: 32px;
+}

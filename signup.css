@@ -1,0 +1,23 @@
+
+.signupSection{
+  width: 25%;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.signupSection div{
+  background: #000a12;
+  overflow: auto;
+  padding: 8px;
+}
+
+.signupSection img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signupSection h1{
+text-align: center;
+font-size: 32px;
+}
